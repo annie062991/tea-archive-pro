@@ -108,9 +108,9 @@ function BottomNav({ tab, setTab }) {
       <div className="max-w-5xl mx-auto px-6 pb-5">
         <div className="bg-[#FDFCFB] rounded-[2.2rem] border border-[#EADBC8] shadow-[0_10px_40px_rgba(67,40,24,0.12)] overflow-hidden">
           <div className="flex">
-            {item("form", "茶飲表單", "🧾")}
+            {item("form", "對戰記錄", "🧾")}
             {item("calendar", "奶茶怪出戰紀錄", "🗓️")}
-            {item("insights", "數據分析", "📊")}
+            {item("insights", "戰況分析", "📊")}
           </div>
         </div>
       </div>
@@ -303,7 +303,7 @@ const equivProgress = useMemo(() => {
             TEA ARCHIVE PRO
           </p>
           <h1 className="text-2xl font-black tracking-tight mt-1">
-            {tab === "form" ? "茶飲紀錄表單" : tab === "calendar" ? "奶茶怪出戰紀錄" : "數據分析"}
+            {tab === "form" ? "對戰記錄" : tab === "calendar" ? "奶茶怪出戰紀錄" : "對戰記錄"}
           </h1>
           <p className="text-[11px] font-black text-[#8B5E3C]/60 mt-2">
             {tab === "form"
